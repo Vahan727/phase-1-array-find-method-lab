@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2023-04-11T19:44:54.674Z",
+    "end": "2023-04-11T19:44:54.942Z",
+    "duration": 268
+  },
+  "tests": [
+    {
+      "title": "returns a year the Denver Broncos won the superbowl",
+      "fullTitle": "superbowlWin(record) returns a year the Denver Broncos won the superbowl",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: superbowlWin is not defined\n    at Context.<anonymous> (test/indexTest.js:68:1)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "superbowlWin is not defined"
+      }
+    },
+    {
+      "title": "returns undefined if the record has no win objects",
+      "fullTitle": "superbowlWin(record) returns undefined if the record has no win objects",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: superbowlWin is not defined\n    at Context.<anonymous> (test/indexTest.js:73:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "superbowlWin is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a year the Denver Broncos won the superbowl",
+      "fullTitle": "superbowlWin(record) returns a year the Denver Broncos won the superbowl",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: superbowlWin is not defined\n    at Context.<anonymous> (test/indexTest.js:68:1)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "superbowlWin is not defined"
+      }
+    },
+    {
+      "title": "returns undefined if the record has no win objects",
+      "fullTitle": "superbowlWin(record) returns undefined if the record has no win objects",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: superbowlWin is not defined\n    at Context.<anonymous> (test/indexTest.js:73:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "superbowlWin is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
